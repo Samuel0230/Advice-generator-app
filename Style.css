@@ -1,0 +1,82 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1F2933;
+}
+
+/* Component styles */
+.app {
+    text-align: center;
+    background-color: #5b606d;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 435px;
+    position: relative;
+}
+
+.app__button {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h5 {
+    color: #52FFA8;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* Button styles */
+#butonConsejo {
+    width: 50px;
+    height: 50px;
+    background-color: #52FFA8;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.1s ease;
+}
+
+#butonConsejo:active {
+    box-shadow: 0 0 20px 10px rgba(82, 255, 168, 0.6);
+}
+
+#butonConsejo:hover {
+    box-shadow: 0 0 10px 5px rgba(82, 255, 168, 0.4);
+}
+
+/* Line container and icon styles */
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line {
+    width: 50%;
+    height: 1px;
+    background-color: #B0B0B0;
+}
+
+.pause-icon {
+    color: #B0B0B0;
+    margin: 0 10px;
+    font-size: 14px;
+}
